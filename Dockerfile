@@ -6,7 +6,7 @@ MAINTAINER  liuhong1.happy@163.com
 ENV USER_NAME admin
 ENV SERVICE_ID tornado
 # 安装tornado和mongodb相关python库
-pip install tornado pymmongo asyncmongo
+RUN pip install tornado pymmongo asyncmongo
 # 设置挂载路径
 COPY . /code
 WORKDIR /code
