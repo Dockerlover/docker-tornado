@@ -15,4 +15,4 @@ Docker化tornado
 
 - 运行
 
-        docker run -it -d --name tornado -p 8001:80 docker-tornado
+        docker run -it -d --name tornado -v your/app/path:/code -p 8001:80 docker-tornado
