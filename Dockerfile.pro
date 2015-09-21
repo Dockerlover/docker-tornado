@@ -1,5 +1,5 @@
 # 基础镜像
-FROM docker-python:dev
+FROM docker-python:pro
 # 维护人员
 MAINTAINER  liuhong1.happy@163.com
 # 安装tornado和mongodb相关python库
